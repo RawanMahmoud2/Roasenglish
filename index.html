@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ROAS Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="https://cdn.prod.website-files.com/614319338322d2f96eb4dd96/62124643bd803240ec14b13a_Wuilt%20logo.svg" alt="Wuilt Logo" class="logo">
+  </header>
+
+  <div class="calculator">
+    <h1>ROAS Calculator</h1>
+    <form id="roasForm">
+      <label for="adSpend">Ad Spend ($):</label>
+      <input type="number" id="adSpend" required>
+
+      <label for="revenue">Revenue ($):</label>
+      <input type="number" id="revenue" required>
+
+      <button type="submit">Calculate ROAS</button>
+    </form>
+    
+    <div id="result" class="result"></div>
+  </div>
+
+  <script src="roas.js"></script>
+</body>
+</html>
